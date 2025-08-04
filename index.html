@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wesley Lima Costa</title>
+    <script src="./assets/js/tailwind.js"></script>
+    <script src="./assets/js/tailwindinit.js"></script>
+</head>
+
+<body class="font-inter text-light bg-dark min-h-screen flex flex-col relative overflow-x-hidden">
+    <!-- Elementos flutuantes -->
+    <div class="absolute rounded-full bg-[radial-gradient(circle,rgba(34,197,94,0.4)_20%,transparent_70%)] blur-2xl opacity-60 pointer-events-none animate-[float_12s_ease-in-out_infinite,pulse_6s_ease-in-out_infinite]"
+        style="top:5%;left:8%;width:220px;height:220px;"></div>
+    <div class="absolute rounded-full bg-[radial-gradient(circle,rgba(34,197,94,0.4)_20%,transparent_70%)] blur-2xl opacity-60 pointer-events-none animate-[float_12s_ease-in-out_infinite,pulse_6s_ease-in-out_infinite]"
+        style="bottom:10%;right:12%;width:180px;height:180px;"></div>
+    <div class="absolute rounded-full bg-[radial-gradient(circle,rgba(34,197,94,0.4)_20%,transparent_70%)] blur-2xl opacity-60 pointer-events-none animate-[float_12s_ease-in-out_infinite,pulse_6s_ease-in-out_infinite]"
+        style="top:25%;right:5%;width:120px;height:120px;"></div>
+    <div class="absolute rounded-full bg-[radial-gradient(circle,rgba(34,197,94,0.4)_20%,transparent_70%)] blur-2xl opacity-60 pointer-events-none animate-[float_12s_ease-in-out_infinite,pulse_6s_ease-in-out_infinite]"
+        style="bottom:20%;left:15%;width:150px;height:150px;"></div>
+
+    <!-- Sobre Mim (agora como primeira seção) -->
+    <section class="py-24 px-6 md:px-14 bg-dark">
+        <div class="flex flex-col md:flex-row items-center gap-14 max-w-4xl mx-auto">
+            <img src="./assets/img/minha-foto.jpg" alt="Foto do Fundador"
+                class="w-52 h-52 rounded-full object-cover shadow-lg border-2 border-primary" />
+            <div class="flex-1">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-primary mb-7 tracking-tight">Wesley Lima Costa</h1>
+                <h2 class="text-2xl font-bold text-light mb-4">Desenvolvedor Web Full Stack</h2>
+                <p class="text-lg text-gray-300 leading-relaxed mb-7">Sou apaixonado por tecnologia e desenvolvimento de
+                    soluções digitais. Atuo como desenvolvedor full stack, criando aplicações web modernas,
+                    performáticas e
+                    escaláveis para empresas e pessoas.</p>
+                <p class="text-lg text-gray-300 leading-relaxed mb-4">Tenho experiência com frontend, backend, bancos de
+                    dados e nuvem, utilizando as melhores práticas e tecnologias do mercado.</p>
+                <p class="text-lg text-primary font-semibold">Formado em Análise e Desenvolvimento de Sistemas pela São
+                    Paulo Tech School (antiga BandTec).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Tecnologias -->
+    <section class="py-20 px-6 md:px-14 max-w-5xl mx-auto">
+        <h2 class="text-4xl font-extrabold text-primary text-center mb-10 tracking-tight">Tecnologias</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Front-end -->
+            <div class="bg-[#1a1a1a] rounded-2xl p-7 shadow-lg border border-primary flex flex-col gap-4">
+                <h3 class="text-xl font-bold text-primary mb-2 flex items-center gap-2">Front-end</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span
+                        class="flex items-center gap-2 bg-dark rounded-lg px-3 py-2 text-light text-sm font-semibold border border-primary"><span>🌐</span>HTML,
+                        CSS</span>
+                    <span
+                        class="flex items-center gap-2 bg-dark rounded-lg px-3 py-2 text-light text-sm font-semibold border border-primary"><span>⚡</span>JavaScript,
+                        TypeScript</span>
+                    <span
+                        class="flex items-center gap-2 bg-dark rounded-lg px-3 py-2 text-light text-sm font-semibold border border-primary"><img
+                            src="./assets/img/react.svg" alt="React" class="w-5 h-5" />React, Next.js</span>
+                    <span
+                        class="flex items-center gap-2 bg-dark rounded-lg px-3 py-2 text-light text-sm font-semibold border border-primary"><span>🎨</span>Bootstrap,
+                        Tailwind CSS</span>
+                </div>
+            </div>
+            <!-- Back-end -->
+            <div class="bg-[#1a1a1a] rounded-2xl p-7 shadow-lg border border-primary flex flex-col gap-4">
+                <h3 class="text-xl font-bold text-primary mb-2 flex items-center gap-2">Back-end</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span
+                        class="flex items-center gap-2 bg-dark rounded-lg px-3 py-2 text-light text-sm font-semibold border border-primary"><span>#️⃣</span>C#,
+                        .NET</span>
+                    <span
+                        class="flex items-center gap-2 bg-dark rounded-lg px-3 py-2 text-light text-sm font-semibold border border-primary"><span>☕</span>Java,
+                        Spring Boot</span>
+                    <span
+                        class="flex items-center gap-2 bg-dark rounded-lg px-3 py-2 text-light text-sm font-semibold border border-primary"><span>🐍</span>Python,
+                        Flask, FastAPI</span>
+                    <span
+                        class="flex items-center gap-2 bg-dark rounded-lg px-3 py-2 text-light text-sm font-semibold border border-primary"><span>🐘</span>PHP,
+                        Laravel</span>
+                    <span
+                        class="flex items-center gap-2 bg-dark rounded-lg px-3 py-2 text-light text-sm font-semibold border border-primary"><span>🤖</span>Kotlin</span>
+                    <span
+                        class="flex items-center gap-2 bg-dark rounded-lg px-3 py-2 text-light text-sm font-semibold border border-primary"><span>🟢</span>Node.js,
+                        Nest.js</span>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            <!-- Banco de Dados -->
+            <div class="bg-[#1a1a1a] rounded-2xl p-7 shadow-lg border border-primary flex flex-col gap-4">
+                <h3 class="text-xl font-bold text-primary mb-2 flex items-center gap-2">Banco de Dados</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span
+                        class="flex items-center gap-2 bg-dark rounded-lg px-3 py-2 text-light text-sm font-semibold border border-primary"><span>🗄️</span>SQL
+                        Server, MySQL, PostgreSQL</span>
+                </div>
+            </div>
+            <!-- Nuvem -->
+            <div class="bg-[#1a1a1a] rounded-2xl p-7 shadow-lg border border-primary flex flex-col gap-4">
+                <h3 class="text-xl font-bold text-primary mb-2 flex items-center gap-2">Nuvem</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span
+                        class="flex items-center gap-2 bg-dark rounded-lg px-3 py-2 text-light text-sm font-semibold border border-primary"><span>☁️</span>AWS</span>
+                    <span
+                        class="flex items-center gap-2 bg-dark rounded-lg px-3 py-2 text-light text-sm font-semibold border border-primary"><span>☁️</span>Azure</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos com Carrossel 3 em 3 -->
+    <section class="py-20 px-6 md:px-14 max-w-6xl mx-auto">
+        <h2 class="text-4xl font-extrabold text-primary text-center mb-10 tracking-tight">Projetos em Destaque</h2>
+        <div class="relative">
+            <!-- Carousel Wrapper -->
+            <div id="carousel-projects" class="overflow-hidden">
+                <div class="flex transition-transform duration-500" style="transform: translateX(0%)"
+                    id="carousel-inner">
+                    <!-- Slide 1: Projetos 1-3 -->
+                    <div class="min-w-full flex gap-4 md:gap-6 lg:gap-8">
+                        <!-- Projeto 1: API de Originadores -->
+                        <div class="bg-[#1a1a1a] rounded-2xl shadow-lg border border-primary basis-1/3 min-w-0 flex-1 flex flex-col mx-auto group cursor-pointer transition-shadow duration-300 hover:shadow-2xl hover:border-primary/80 overflow-hidden"
+                            tabindex="0">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="flex flex-col h-full">
+                                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80"
+                                    alt="API de Originadores" class="w-full h-48 object-cover" />
+                                <div class="p-6 flex-1 flex flex-col">
+                                    <h3 class="text-2xl font-bold text-light mb-2">API de Originadores</h3>
+                                    <p class="text-gray-400 mb-4 flex-1">API em .NET responsável por receber transações
+                                        de diversos originadores e capturar o score de cada cliente para cada operação.
+                                        Utiliza banco de dados PostgreSQL.</p>
+                                    <div class="flex flex-wrap gap-2 mt-auto">
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">.NET</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">C#</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">PostgreSQL</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Projeto 2: Editmatch -->
+                        <div class="bg-[#1a1a1a] rounded-2xl shadow-lg border border-primary basis-1/3 min-w-0 flex-1 flex flex-col mx-auto group cursor-pointer transition-shadow duration-300 hover:shadow-2xl hover:border-primary/80 overflow-hidden"
+                            tabindex="0">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="flex flex-col h-full">
+                                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80"
+                                    alt="Editmatch" class="w-full h-48 object-cover" />
+                                <div class="p-6 flex-1 flex flex-col">
+                                    <h3 class="text-2xl font-bold text-light mb-2">Editmatch</h3>
+                                    <p class="text-gray-400 mb-4 flex-1">Plataforma de editores de vídeos freelancers.
+                                        Backend em Spring Boot, frontend em React + TypeScript, app mobile em Kotlin.
+                                        Deploy na AWS (EC2, S3 para armazenar os vídeos), integração de pagamentos com
+                                        Efí Bank, balanceamento de carga com Nginx e uso de Docker.</p>
+                                    <div class="flex flex-wrap gap-2 mt-auto">
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">Spring
+                                            Boot</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">React</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">TypeScript</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">Kotlin</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">AWS
+                                            EC2</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">AWS
+                                            S3</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">Efí
+                                            Bank</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">Nginx</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">Docker</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Projeto 3: Leitor e Gravador de CNAB 400 -->
+                        <div class="bg-[#1a1a1a] rounded-2xl shadow-lg border border-primary basis-1/3 min-w-0 flex-1 flex flex-col mx-auto group cursor-pointer transition-shadow duration-300 hover:shadow-2xl hover:border-primary/80 overflow-hidden"
+                            tabindex="0">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="flex flex-col h-full">
+                                <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3fd9?auto=format&fit=crop&w=600&q=80"
+                                    alt="Leitor e Gravador de CNAB 400" class="w-full h-48 object-cover" />
+                                <div class="p-6 flex-1 flex flex-col">
+                                    <h3 class="text-2xl font-bold text-light mb-2">Leitor e Gravador de CNAB 400</h3>
+                                    <p class="text-gray-400 mb-4 flex-1">Módulo em PHP/Laravel para leitura e gravação
+                                        de arquivos CNAB 400 em sistema financeiro, processando remessas e registros de
+                                        clientes para bancos.</p>
+                                    <div class="flex flex-wrap gap-2 mt-auto">
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">PHP</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">Laravel</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">PostgreSQL</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">CNAB
+                                            400</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Slide 2: Projeto 4-6 -->
+                    <div class="min-w-full flex gap-4 md:gap-6 lg:gap-8">
+                        <!-- Projeto 4: Landing Page de Produtos -->
+                        <div class="bg-[#1a1a1a] rounded-2xl shadow-lg border border-primary basis-1/3 min-w-0 flex-1 flex flex-col mx-auto group cursor-pointer transition-shadow duration-300 hover:shadow-2xl hover:border-primary/80 overflow-hidden"
+                            tabindex="0">
+                            <a href="./landing-produtos.html" target="_blank" rel="noopener noreferrer"
+                                class="flex flex-col h-full">
+                                <img src="https://images.unsplash.com/photo-1515168833906-d2a3b82b302c?auto=format&fit=crop&w=600&q=80"
+                                    alt="Landing Page de Produtos" class="w-full h-48 object-cover" />
+                                <div class="p-6 flex-1 flex flex-col">
+                                    <h3 class="text-2xl font-bold text-light mb-2">Landing Page de Produtos</h3>
+                                    <p class="text-gray-400 mb-4 flex-1">Landing page responsiva para exibição de
+                                        produtos,
+                                        desenvolvida em HTML e Tailwind CSS, com grid de produtos e botão de atendimento
+                                        via
+                                        WhatsApp. Solução personalizada para clientes que desejam vender ou apresentar
+                                        produtos online de forma simples e eficiente.</p>
+                                    <div class="flex flex-wrap gap-2 mt-auto">
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">HTML</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">Tailwind
+                                            CSS</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">WhatsApp</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">Responsivo</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Projeto 5: Bot para Twitch -->
+                        <div class="bg-[#1a1a1a] rounded-2xl shadow-lg border border-primary basis-1/3 min-w-0 flex-1 flex flex-col mx-auto group cursor-pointer transition-shadow duration-300 hover:shadow-2xl hover:border-primary/80 overflow-hidden"
+                            tabindex="0">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="flex flex-col h-full">
+                                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
+                                    alt="Bot para Twitch" class="w-full h-48 object-cover" />
+                                <div class="p-6 flex-1 flex flex-col">
+                                    <h3 class="text-2xl font-bold text-light mb-2">Bot para Twitch</h3>
+                                    <p class="text-gray-400 mb-4 flex-1">Bot feito com JavaScript e Node.js. Painel de
+                                        sorteio de prêmios integrado à Twitch, comunicação via WebSocket e comandos no
+                                        chat.
+                                    </p>
+                                    <div class="flex flex-wrap gap-2 mt-auto">
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">Node.js</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">JavaScript</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">WebSocket</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">Twitch
+                                            API</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Projeto 6: Bot para Discord -->
+                        <div class="bg-[#1a1a1a] rounded-2xl shadow-lg border border-primary basis-1/3 min-w-0 flex-1 flex flex-col mx-auto group cursor-pointer transition-shadow duration-300 hover:shadow-2xl hover:border-primary/80 overflow-hidden"
+                            tabindex="0">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="flex flex-col h-full">
+                                <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80"
+                                    alt="Bot para Discord" class="w-full h-48 object-cover" />
+                                <div class="p-6 flex-1 flex flex-col">
+                                    <h3 class="text-2xl font-bold text-light mb-2">Bot para Discord</h3>
+                                    <p class="text-gray-400 mb-4 flex-1">Bot de loja para Discord, exibe produtos e
+                                        integra
+                                        pagamentos. Desenvolvido em Python.</p>
+                                    <div class="flex flex-wrap gap-2 mt-auto">
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">Python</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">Discord
+                                            API</span>
+                                        <span
+                                            class="bg-dark border border-primary text-primary rounded px-2 py-1 text-xs font-semibold">Pagamentos</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Espaço para manter layout de 3 cards por slide -->
+                        <div class="flex-1"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Controls -->
+            <button id="carousel-prev"
+                class="absolute left-0 top-1/2 -translate-y-1/2 bg-dark bg-opacity-80 hover:bg-primary text-primary hover:text-dark rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition-colors duration-200 z-10"
+                aria-label="Anterior">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                </svg>
+            </button>
+            <button id="carousel-next"
+                class="absolute right-0 top-1/2 -translate-y-1/2 bg-dark bg-opacity-80 hover:bg-primary text-primary hover:text-dark rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition-colors duration-200 z-10"
+                aria-label="Próximo">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+            </button>
+        </div>
+        <script>
+            // Carousel 3 em 3 projetos
+            const carouselInner = document.getElementById('carousel-inner');
+            const totalSlides = carouselInner.children.length;
+            let idx = 0;
+            function updateCarousel() {
+                carouselInner.style.transform = `translateX(-${idx * 100}%)`;
+            }
+            document.getElementById('carousel-prev').onclick = () => {
+                idx = (idx - 1 + totalSlides) % totalSlides;
+                updateCarousel();
+            };
+            document.getElementById('carousel-next').onclick = () => {
+                idx = (idx + 1) % totalSlides;
+                updateCarousel();
+            };
+        </script>
+    </section>
+
+    <!-- Seção Certificações -->
+    <section class="py-20 px-6 md:px-14 max-w-5xl mx-auto">
+        <h2 class="text-4xl font-extrabold text-primary text-center mb-10 tracking-tight">Certificações</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Certificação C# -->
+            <a href="https://www.udemy.com/certificate/UC-90d4b124-d91d-4dd0-bbe8-a911414c2e7a/" target="_blank"
+                rel="noopener noreferrer"
+                class="bg-[#1a1a1a] rounded-2xl shadow-lg border border-primary hover:border-primary/80 transition-shadow duration-300 hover:shadow-2xl p-6 flex flex-col gap-2 group cursor-pointer">
+                <h3 class="text-xl font-bold text-primary mb-1 group-hover:underline">C#, curso completo do básico ao
+                    avançado</h3>
+                <span class="text-gray-400 text-sm">Udemy</span>
+            </a>
+            <!-- Certificação GitHub -->
+            <a href="https://hermes.dio.me/certificates/MR9HHVOG.pdf?_gl=1*1u5tn55*_gcl_au*MTQxNTQwMDM1OC4xNzA4NjMyMjUz"
+                target="_blank" rel="noopener noreferrer"
+                class="bg-[#1a1a1a] rounded-2xl shadow-lg border border-primary hover:border-primary/80 transition-shadow duration-300 hover:shadow-2xl p-6 flex flex-col gap-2 group cursor-pointer">
+                <h3 class="text-xl font-bold text-primary mb-1 group-hover:underline">Formação GitHub Certification</h3>
+                <span class="text-gray-400 text-sm">DIO</span>
+            </a>
+            <!-- Certificação React -->
+            <a href="https://www.udemy.com/certificate/UC-5b478ad6-05ed-4aae-b214-312ce15cb7b9/" target="_blank"
+                rel="noopener noreferrer"
+                class="bg-[#1a1a1a] rounded-2xl shadow-lg border border-primary hover:border-primary/80 transition-shadow duration-300 hover:shadow-2xl p-6 flex flex-col gap-2 group cursor-pointer">
+                <h3 class="text-xl font-bold text-primary mb-1 group-hover:underline">React do Zero ao Avançado</h3>
+                <span class="text-gray-400 text-sm">Udemy</span>
+            </a>
+            <!-- Certificação Docker -->
+            <a href="https://www.udemy.com/certificate/UC-400334c3-5e5d-4c1f-8d24-6bf27d5662d6/" target="_blank"
+                rel="noopener noreferrer"
+                class="bg-[#1a1a1a] rounded-2xl shadow-lg border border-primary hover:border-primary/80 transition-shadow duration-300 hover:shadow-2xl p-6 flex flex-col gap-2 group cursor-pointer">
+                <h3 class="text-xl font-bold text-primary mb-1 group-hover:underline">Docker para Desenvolvedores</h3>
+                <span class="text-gray-400 text-sm">Udemy</span>
+            </a>
+            <!-- Certificação PHP/Laravel/Vue.js -->
+            <a href="https://www.udemy.com/certificate/UC-86fcefd7-7704-4c70-848c-edece18c742d/" target="_blank"
+                rel="noopener noreferrer"
+                class="bg-[#1a1a1a] rounded-2xl shadow-lg border border-primary hover:border-primary/80 transition-shadow duration-300 hover:shadow-2xl p-6 flex flex-col gap-2 group cursor-pointer">
+                <h3 class="text-xl font-bold text-primary mb-1 group-hover:underline">Desenvolvimento Web Avançado com
+                    PHP, Laravel e Vue.js</h3>
+                <span class="text-gray-400 text-sm">Udemy</span>
+            </a>
+            <!-- Certificação Java Fundamentos -->
+            <a href="https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/82666/ca905d25c59a156ca8365c9d4911fb56/certificado.png"
+                target="_blank" rel="noopener noreferrer"
+                class="bg-[#1a1a1a] rounded-2xl shadow-lg border border-primary hover:border-primary/80 transition-shadow duration-300 hover:shadow-2xl p-6 flex flex-col gap-2 group cursor-pointer">
+                <h3 class="text-xl font-bold text-primary mb-1 group-hover:underline">Java Fundamentos (FIAP)</h3>
+                <span class="text-gray-400 text-sm">FIAP</span>
+            </a>
+            <!-- Certificação TypeScript -->
+            <a href="https://www.dio.me/certificate/DA91F062/share" target="_blank" rel="noopener noreferrer"
+                class="bg-[#1a1a1a] rounded-2xl shadow-lg border border-primary hover:border-primary/80 transition-shadow duration-300 hover:shadow-2xl p-6 flex flex-col gap-2 group cursor-pointer">
+                <h3 class="text-xl font-bold text-primary mb-1 group-hover:underline">Formação TypeScript</h3>
+                <span class="text-gray-400 text-sm">DIO</span>
+            </a>
+        </div>
+    </section>
+
+    <a href="https://wa.me/5511915091676"
+        class="fixed bottom-8 right-8 z-50 bg-primary rounded-full shadow-2xl flex items-center justify-center w-16 h-16 transition-transform duration-200 animate-pulse hover:scale-105 hover:shadow-2xl"
+        target="_blank" rel="noopener noreferrer" title="Fale conosco no WhatsApp"
+        aria-label="Fale conosco no WhatsApp">
+        <img src="./assets/img/WhatsApp.webp" alt="WhatsApp" class="w-9 h-9" />
+    </a>
+
+    <!-- Seção Contato -->
+    <footer id="contato" class="py-24 px-14 text-center bg-[#111] relative z-10">
+        <h3 class="text-3xl font-extrabold text-primary mb-7">Entre em Contato</h3>
+        <div class="flex flex-col sm:flex-row gap-10 justify-center items-center mb-9">
+            <a href="mailto:wesley.limacosta@hotmail.com"
+                class="inline-flex items-center text-primary text-xl font-bold hover:text-green-600 transition-colors duration-300">wesley.limacosta@hotmail.com</a>
+            <a href="https://wa.me/5511915091676"
+                class="inline-flex items-center text-primary text-xl font-bold hover:text-green-600 transition-colors duration-300"
+                target="_blank" rel="noopener noreferrer" aria-label="Fale comigo pelo WhatsApp">
+                <img src="./assets/img/WhatsApp.webp" alt="WhatsApp" class="w-6 h-6 mr-2 align-middle" />
+                <span class="font-semibold">+55 11 91509-1676</span>
+            </a>
+        </div>
+        <span class="text-base text-gray-400">© 2025 Wesley Lima Costa. Todos os direitos reservados.</span>
+    </footer>
+</body>
+
+</html>
